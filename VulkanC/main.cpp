@@ -7,6 +7,8 @@
 #include <cglm.h>
 #include <stb_image.h>
 #include <imgui.h>
+#include <vulkan/vulkan.h>
+#include <VkBootstrap.h>
 
 struct AppData {
     SDL_Window* window;

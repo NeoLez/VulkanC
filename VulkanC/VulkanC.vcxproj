@@ -76,7 +76,9 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Me\MyStuff\Dev\C\VulkanC\SDL-release-3.2.8\include;$(VULKAN_SDK)\Include;C:\Users\Me\MyStuff\Dev\C\VulkanC\Dependencies\Includes;imgui;stbimage;cglm</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Me\MyStuff\Dev\C\VulkanC\SDL-release-3.2.8\include;$(VULKAN_SDK)\Include;C:\Users\Me\MyStuff\Dev\C\VulkanC\Dependencies\Includes;imgui;stbimage;cglm;vkbootstrap</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -93,7 +95,9 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Me\MyStuff\Dev\C\VulkanC\SDL-release-3.2.8\include;$(VULKAN_SDK)\Include;C:\Users\Me\MyStuff\Dev\C\VulkanC\Dependencies\Includes;imgui;stbimage;cglm</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Me\MyStuff\Dev\C\VulkanC\SDL-release-3.2.8\include;$(VULKAN_SDK)\Include;C:\Users\Me\MyStuff\Dev\C\VulkanC\Dependencies\Includes;imgui;stbimage;cglm;vkbootstrap</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -110,7 +114,9 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Me\MyStuff\Dev\C\VulkanC\SDL-release-3.2.8\include;$(VULKAN_SDK)\Include;C:\Users\Me\MyStuff\Dev\C\VulkanC\Dependencies\Includes;imgui;stbimage;cglm</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Me\MyStuff\Dev\C\VulkanC\SDL-release-3.2.8\include;$(VULKAN_SDK)\Include;C:\Users\Me\MyStuff\Dev\C\VulkanC\Dependencies\Includes;imgui;stbimage;cglm;vkbootstrap</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,7 +133,9 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Me\MyStuff\Dev\C\VulkanC\SDL-release-3.2.8\include;$(VULKAN_SDK)\Include;C:\Users\Me\MyStuff\Dev\C\VulkanC\Dependencies\Includes;imgui;stbimage;cglm</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Me\MyStuff\Dev\C\VulkanC\SDL-release-3.2.8\include;$(VULKAN_SDK)\Include;C:\Users\Me\MyStuff\Dev\C\VulkanC\Dependencies\Includes;imgui;stbimage;cglm;vkbootstrap</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
