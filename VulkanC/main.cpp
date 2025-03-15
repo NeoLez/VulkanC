@@ -3,6 +3,10 @@
 #include <SDL3/SDL_log.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <imgui.h>
+#include <cglm.h>
+#include <stb_image.h>
+#include <imgui.h>
 
 struct AppData {
     SDL_Window* window;
@@ -11,7 +15,7 @@ struct AppData {
 SDL_AppResult SDL_AppInit(void** appstate, int argc, char** argv) {
     SDL_SetAppMetadata("SDL", "0.0.1", "com.neolez.sdl");
     if (SDL_InitSubSystem(SDL_INIT_VIDEO | SDL_INIT_EVENTS)) {
-        struct AppData* app_data = malloc(sizeof(struct AppData));
+        struct AppData* app_data = (AppData*)malloc(sizeof(struct AppData));
 
         app_data->window = SDL_CreateWindow("SDL", 800, 600, SDL_WINDOW_OPENGL);
 
