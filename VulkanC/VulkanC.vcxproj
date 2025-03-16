@@ -152,6 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="vkbootstrap\VkBootstrap.cpp" />
     <ClCompile Include="vk_initializers.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -160,6 +161,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="vkbootstrap\VkBootstrap.h" />
+    <ClInclude Include="vkbootstrap\VkBootstrapDispatch.h" />
     <ClInclude Include="vk_initializers.h" />
     <ClInclude Include="vk_types.h" />
   </ItemGroup>

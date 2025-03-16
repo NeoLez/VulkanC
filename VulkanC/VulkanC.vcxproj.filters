@@ -21,12 +21,21 @@
     <ClCompile Include="vk_initializers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="vkbootstrap\VkBootstrap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="vk_types.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="vk_initializers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vkbootstrap\VkBootstrap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vkbootstrap\VkBootstrapDispatch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
